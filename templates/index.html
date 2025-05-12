@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Detection App</title>
+</head>
+<body>
+    <h1>Smile Detection Web App</h1>
+    <p>Smile and the app will capture your photo!</p>
+    <div>
+        <img src="{{ url_for('video_feed') }}" width="640" height="480">
+    </div>
+    <div id="status">
+        <h3>Say Cheese!</h3>
+    </div>
+</body>
+</html>
